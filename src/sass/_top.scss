@@ -1,0 +1,52 @@
+.top {
+  min-height: calc(100vh - 81px);
+  background-image: url('../images/bg-image.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom center;
+
+  &__title {
+    padding-top: 19%;
+    margin-bottom: 10px;
+    font-size: 96px;
+    line-height: 1.15;
+    color: #5c5c5e;
+  }
+
+  &__subtitle {
+    font-size: 36px;
+    line-height: 1.14;
+    color: #5c5c5e;
+    margin-bottom: 5px;
+  }
+
+  &__text {
+    font-size: 13px;
+    line-height: 1.15;
+    margin-bottom: 50px;
+  }
+
+  &__btn {
+    cursor: pointer;
+    margin-bottom: 10px;
+    border: none;
+    background: linear-gradient(
+      180deg,
+      #bc10d8 0%,
+      rgba(80, 0, 250, 0.93) 100%
+    );
+    text-transform: uppercase;
+    display: flex;
+    padding: 1px;
+
+    &-text {
+      color: #f6f4f5;
+      padding: 20px 110px;
+    }
+
+    &-price {
+      background-color: #f6f4f5;
+      padding: 20px 105px;
+    }
+  }
+}

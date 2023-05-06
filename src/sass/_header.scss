@@ -1,0 +1,36 @@
+.header {
+  border-bottom: 1px solid #cacad6;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+}
+
+.menu {
+  display: flex;
+  gap: 0 20px;
+  font-size: 16px;
+  line-height: 1.37;
+}
+
+.basket {
+  position: relative;
+}
+
+.basket span {
+  font-size: 11px;
+  width: 15px;
+  height: 15px;
+  background-color: #000;
+  color: #fff;
+  border-radius: 50%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 0;
+  right: -2px;
+}

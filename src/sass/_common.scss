@@ -1,1 +1,51 @@
 @import '~node_modules/modern-normalize/modern-normalize.css';
+
+body {
+  font-family: 'Helvetica', sans-serif;
+  font-size: 16px;
+  // letter-spacing: 0.04em;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+@media screen and (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+// iframe {
+//   border-width: 0px;
+// }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+// address {
+//   font-style: normal;
+// }
+
+.list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
