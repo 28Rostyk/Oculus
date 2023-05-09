@@ -1,0 +1,88 @@
+.game {
+  margin-bottom: 100px;
+
+  &__title {
+    margin-bottom: 50px;
+  }
+
+  &__inner {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  &__descr {
+    padding-right: 10px;
+
+    &-title {
+      background: linear-gradient(
+        180deg,
+        #bc10d8 0%,
+        rgba(80, 0, 250, 0.93) 100%
+      );
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-size: 36px;
+      line-height: 1.14;
+      text-transform: uppercase;
+      margin-bottom: 10px;
+    }
+
+    &-text {
+      margin-bottom: 30px;
+    }
+  }
+
+  &__link {
+    display: inline-block;
+    background: linear-gradient(
+      180deg,
+      #bc10d8 0%,
+      rgba(80, 0, 250, 0.93) 100%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 16px 47px;
+    border: 1px solid #bc10d8;
+  }
+
+  &__item {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid;
+    border-image: linear-gradient(
+        180deg,
+        #bc10d8 0%,
+        rgba(80, 0, 250, 0.93) 100%
+      )
+      1;
+  }
+
+  &__item-img {
+    margin-bottom: 10px;
+  }
+
+  &__item-title {
+    font-size: 24px;
+    line-height: 1.17;
+    color: #070707;
+    margin-bottom: 10px;
+  }
+
+  &__item-text {
+    margin-bottom: 30px;
+  }
+
+  &__item-link {
+    background: linear-gradient(
+      180deg,
+      #bc10d8 0%,
+      rgba(80, 0, 250, 0.93) 100%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: auto;
+  }
+}

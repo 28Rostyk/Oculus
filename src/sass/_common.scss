@@ -3,6 +3,9 @@
 body {
   font-family: 'Helvetica', sans-serif;
   font-size: 16px;
+  line-height: 1.4;
+  font-weight: 400;
+  color: #5c5c5e;
   // letter-spacing: 0.04em;
 }
 
@@ -48,4 +51,20 @@ img {
 a {
   text-decoration: none;
   color: inherit;
+}
+
+button {
+  color: inherit;
+  font-size: inherit;
+  font-family: inherit;
+  padding: 0;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.section__title {
+  font-size: 16px;
+  line-height: 1.12;
+  color: #5c5c5e;
 }
