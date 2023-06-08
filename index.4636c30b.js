@@ -1,2 +1,0 @@
-!function(){"use strict";var t=document.querySelectorAll(".tabs__btn-item"),e=document.querySelectorAll(".tabs__content-item");function c(c){var n=c.currentTarget,a=n.dataset.button;t.forEach((function(t){t.classList.remove("tabs__btn-item--active")})),e.forEach((function(t){t.classList.remove("tabs__content-item--active")})),n.classList.add("tabs__btn-item--active"),document.querySelector("#".concat(a)).classList.add("tabs__content-item--active")}t.forEach((function(t){t.addEventListener("click",c)}))}();
-//# sourceMappingURL=index.4636c30b.js.map
