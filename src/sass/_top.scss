@@ -48,3 +48,35 @@
     padding: 20px 105px;
   }
 }
+
+@media (max-width: 768px) {
+  .top__title {
+    font-size: 66px;
+  }
+
+  .top__subtitle {
+    font-size: 24px;
+  }
+}
+@media (max-width: 640px) {
+  .buy__btn {
+    flex-direction: column;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 568px) {
+  .top {
+    text-align: center;
+  }
+}
+
+@media (max-width: 420px) {
+  .top__title {
+    font-size: 48px;
+  }
+
+  .top__subtitle {
+    font-size: 20px;
+  }
+}

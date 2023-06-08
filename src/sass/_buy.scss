@@ -42,3 +42,9 @@
     transform-origin: right center;
   }
 }
+
+@media (max-width: 568px) {
+  .buy__bg {
+    font-size: 200px;
+  }
+}

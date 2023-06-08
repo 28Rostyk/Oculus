@@ -56,3 +56,13 @@
     bottom: 5px;
   }
 }
+
+@media (max-width: 820px) {
+  .contacts__inner {
+    display: block;
+  }
+
+  .contacts__form {
+    margin-bottom: 20px;
+  }
+}

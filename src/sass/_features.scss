@@ -72,6 +72,7 @@
   &__content-img {
     grid-row: 1/-1;
     align-self: stretch;
+    object-fit: cover;
   }
 }
 
@@ -96,5 +97,48 @@
   &__btn-text {
     font-size: 13px;
     color: #f6f4f5;
+  }
+}
+
+@media (max-width: 992px) {
+  .tabs {
+    display: block;
+
+    &__btn {
+      display: block;
+      column-count: 2;
+
+      &-item {
+        display: block;
+      }
+    }
+  }
+}
+
+@media (max-width: 568px) {
+  .features__titles {
+    display: block;
+  }
+
+  .tabs__content-item {
+    display: block;
+    height: 0;
+    position: relative;
+  }
+
+  .tabs__content-item--active {
+    height: auto;
+  }
+
+  .video {
+    width: auto;
+    height: 250px;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 420px) {
+  .features__text {
+    font-size: 32px;
   }
 }
